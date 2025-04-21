@@ -9,7 +9,6 @@ public interface multiple_1 {
     default void display_1(){
         System.out.println("interface 2");
     }
-    
 }
 class child implements multiple , multiple_1{
     void add(){
